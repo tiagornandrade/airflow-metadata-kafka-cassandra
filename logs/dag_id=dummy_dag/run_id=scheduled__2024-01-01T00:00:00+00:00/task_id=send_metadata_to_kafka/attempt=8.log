@@ -1,0 +1,14 @@
+[2024-01-05T18:26:46.193+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dummy_dag.send_metadata_to_kafka scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T18:26:46.198+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dummy_dag.send_metadata_to_kafka scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T18:26:46.198+0000] {taskinstance.py:2171} INFO - Starting attempt 8 of 8
+[2024-01-05T18:26:46.205+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): send_metadata_to_kafka> on 2024-01-01 00:00:00+00:00
+[2024-01-05T18:26:46.208+0000] {standard_task_runner.py:60} INFO - Started process 115 to run task
+[2024-01-05T18:26:46.210+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dummy_dag', 'send_metadata_to_kafka', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/dummy_dag.py', '--cfg-path', '/tmp/tmpveysmb9r']
+[2024-01-05T18:26:46.211+0000] {standard_task_runner.py:88} INFO - Job 46: Subtask send_metadata_to_kafka
+[2024-01-05T18:26:46.238+0000] {task_command.py:423} INFO - Running <TaskInstance: dummy_dag.send_metadata_to_kafka scheduled__2024-01-01T00:00:00+00:00 [running]> on host dd33cbd63845
+[2024-01-05T18:26:46.276+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-eng' AIRFLOW_CTX_DAG_ID='dummy_dag' AIRFLOW_CTX_TASK_ID='send_metadata_to_kafka' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='8' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2024-01-05T18:26:46.282+0000] {dummy_dag.py:26} ERROR - Erro ao chamar o endpoint Flask: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /send_metadata (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9635c4f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2024-01-05T18:26:46.283+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-05T18:26:46.287+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dummy_dag, task_id=send_metadata_to_kafka, execution_date=20240101T000000, start_date=20240105T182646, end_date=20240105T182646
+[2024-01-05T18:26:46.305+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-05T18:26:46.316+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

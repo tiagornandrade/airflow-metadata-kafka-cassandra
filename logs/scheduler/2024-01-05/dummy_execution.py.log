@@ -1,0 +1,69 @@
+[2024-01-05T16:39:25.085+0000] {processor.py:161} INFO - Started process (PID=57) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:39:25.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T16:39:25.087+0000] {logging_mixin.py:188} INFO - [2024-01-05T16:39:25.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:45:13.445+0000] {processor.py:161} INFO - Started process (PID=57) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:45:13.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T16:45:13.448+0000] {logging_mixin.py:188} INFO - [2024-01-05T16:45:13.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:46:34.006+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:46:34.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T16:46:34.010+0000] {logging_mixin.py:188} INFO - [2024-01-05T16:46:34.010+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:47:55.130+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:47:55.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T16:47:55.134+0000] {logging_mixin.py:188} INFO - [2024-01-05T16:47:55.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:52:47.919+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:52:47.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T16:52:47.923+0000] {logging_mixin.py:188} INFO - [2024-01-05T16:52:47.923+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:54:47.416+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:54:47.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T16:54:47.419+0000] {logging_mixin.py:188} INFO - [2024-01-05T16:54:47.419+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:55:21.383+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:55:21.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T16:55:21.386+0000] {logging_mixin.py:188} INFO - [2024-01-05T16:55:21.385+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:56:25.930+0000] {processor.py:161} INFO - Started process (PID=57) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:56:25.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T16:56:25.932+0000] {logging_mixin.py:188} INFO - [2024-01-05T16:56:25.932+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:57:46.293+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:57:46.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T16:57:46.295+0000] {logging_mixin.py:188} INFO - [2024-01-05T16:57:46.295+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:59:06.591+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T16:59:06.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T16:59:06.593+0000] {logging_mixin.py:188} INFO - [2024-01-05T16:59:06.593+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:00:27.615+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:00:27.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T17:00:27.617+0000] {logging_mixin.py:188} INFO - [2024-01-05T17:00:27.617+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:01:47.818+0000] {processor.py:161} INFO - Started process (PID=150) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:01:47.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T17:01:47.821+0000] {logging_mixin.py:188} INFO - [2024-01-05T17:01:47.820+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:03:08.241+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:03:08.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T17:03:08.243+0000] {logging_mixin.py:188} INFO - [2024-01-05T17:03:08.243+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:04:29.346+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:04:29.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T17:04:29.348+0000] {logging_mixin.py:188} INFO - [2024-01-05T17:04:29.347+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:06:18.965+0000] {processor.py:161} INFO - Started process (PID=57) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:06:18.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T17:06:18.967+0000] {logging_mixin.py:188} INFO - [2024-01-05T17:06:18.967+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:07:39.572+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:07:39.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T17:07:39.574+0000] {logging_mixin.py:188} INFO - [2024-01-05T17:07:39.574+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:08:59.940+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:08:59.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T17:08:59.941+0000] {logging_mixin.py:188} INFO - [2024-01-05T17:08:59.941+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:10:20.944+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:10:20.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T17:10:20.946+0000] {logging_mixin.py:188} INFO - [2024-01-05T17:10:20.945+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:11:41.259+0000] {processor.py:161} INFO - Started process (PID=150) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:11:41.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T17:11:41.260+0000] {logging_mixin.py:188} INFO - [2024-01-05T17:11:41.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:13:36.743+0000] {processor.py:161} INFO - Started process (PID=57) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:13:36.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T17:13:36.746+0000] {logging_mixin.py:188} INFO - [2024-01-05T17:13:36.746+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:14:57.517+0000] {processor.py:161} INFO - Started process (PID=84) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:14:57.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T17:14:57.519+0000] {logging_mixin.py:188} INFO - [2024-01-05T17:14:57.519+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:16:18.271+0000] {processor.py:161} INFO - Started process (PID=113) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:16:18.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T17:16:18.273+0000] {logging_mixin.py:188} INFO - [2024-01-05T17:16:18.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:17:39.048+0000] {processor.py:161} INFO - Started process (PID=137) to work on /opt/airflow/dags/dummy_execution.py
+[2024-01-05T17:17:39.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dummy_execution.py for tasks to queue
+[2024-01-05T17:17:39.050+0000] {logging_mixin.py:188} INFO - [2024-01-05T17:17:39.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy_execution.py

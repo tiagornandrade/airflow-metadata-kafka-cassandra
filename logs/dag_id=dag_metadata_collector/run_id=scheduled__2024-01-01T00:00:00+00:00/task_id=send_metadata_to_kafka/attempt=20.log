@@ -1,0 +1,14 @@
+[2024-01-05T16:18:16.305+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_metadata_collector.send_metadata_to_kafka scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T16:18:16.310+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_metadata_collector.send_metadata_to_kafka scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T16:18:16.311+0000] {taskinstance.py:2171} INFO - Starting attempt 20 of 20
+[2024-01-05T16:18:16.319+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): send_metadata_to_kafka> on 2024-01-01 00:00:00+00:00
+[2024-01-05T16:18:16.321+0000] {standard_task_runner.py:60} INFO - Started process 310 to run task
+[2024-01-05T16:18:16.324+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_metadata_collector', 'send_metadata_to_kafka', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/dag_metadata_collector.py', '--cfg-path', '/tmp/tmp_dyoqfse']
+[2024-01-05T16:18:16.328+0000] {standard_task_runner.py:88} INFO - Job 46: Subtask send_metadata_to_kafka
+[2024-01-05T16:18:16.359+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_metadata_collector.send_metadata_to_kafka scheduled__2024-01-01T00:00:00+00:00 [running]> on host 73232b21783f
+[2024-01-05T16:18:16.401+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_metadata_collector' AIRFLOW_CTX_TASK_ID='send_metadata_to_kafka' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='20' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2024-01-05T16:23:16.640+0000] {logging_mixin.py:188} INFO - Erro ao enviar a mensagem: KafkaError{code=_MSG_TIMED_OUT,val=-192,str="Local: Message timed out"}
+[2024-01-05T16:23:16.643+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-05T16:23:16.653+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dag_metadata_collector, task_id=send_metadata_to_kafka, execution_date=20240101T000000, start_date=20240105T161816, end_date=20240105T162316
+[2024-01-05T16:23:16.677+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-05T16:23:16.686+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

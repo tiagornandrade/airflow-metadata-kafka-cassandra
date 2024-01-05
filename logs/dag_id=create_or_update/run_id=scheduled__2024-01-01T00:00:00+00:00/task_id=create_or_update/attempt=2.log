@@ -1,0 +1,46 @@
+[2024-01-05T14:16:56.109+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T14:16:56.113+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T14:16:56.113+0000] {taskinstance.py:2171} INFO - Starting attempt 2 of 2
+[2024-01-05T14:16:56.119+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): create_or_update> on 2024-01-01 00:00:00+00:00
+[2024-01-05T14:16:56.122+0000] {standard_task_runner.py:60} INFO - Started process 147 to run task
+[2024-01-05T14:16:56.124+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'create_or_update', 'create_or_update', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/create_or_update.py', '--cfg-path', '/tmp/tmpuy6e83u9']
+[2024-01-05T14:16:56.125+0000] {standard_task_runner.py:88} INFO - Job 12: Subtask create_or_update
+[2024-01-05T14:16:56.152+0000] {task_command.py:423} INFO - Running <TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [running]> on host c25267c2e107
+[2024-01-05T14:16:56.184+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='create_or_update' AIRFLOW_CTX_TASK_ID='create_or_update' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2024-01-05T14:16:56.324+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/create_or_update.py", line 45, in create_or_update
+    cluster = Cluster(['cassandra_db'], auth_provider=auth_provider)
+  File "cassandra/cluster.py", line 1191, in cassandra.cluster.Cluster.__init__
+cassandra.UnresolvableContactPoints: {}
+[2024-01-05T14:16:56.333+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=create_or_update, task_id=create_or_update, execution_date=20240101T000000, start_date=20240105T141656, end_date=20240105T141656
+[2024-01-05T14:16:56.342+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 12 for task create_or_update ({}; 147)
+[2024-01-05T14:16:56.378+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-05T14:16:56.390+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-01-05T17:19:34.080+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T17:19:34.084+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T17:19:34.084+0000] {taskinstance.py:2171} INFO - Starting attempt 2 of 2
+[2024-01-05T17:19:34.091+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): create_or_update> on 2024-01-01 00:00:00+00:00
+[2024-01-05T17:19:34.094+0000] {standard_task_runner.py:60} INFO - Started process 83 to run task
+[2024-01-05T17:19:34.096+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'create_or_update', 'create_or_update', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/create_or_update.py', '--cfg-path', '/tmp/tmp4l3jtq37']
+[2024-01-05T17:19:34.097+0000] {standard_task_runner.py:88} INFO - Job 17: Subtask create_or_update
+[2024-01-05T17:19:34.127+0000] {task_command.py:423} INFO - Running <TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [running]> on host 1750b68a9d32
+[2024-01-05T17:19:34.169+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='create_or_update' AIRFLOW_CTX_TASK_ID='create_or_update' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2024-01-05T17:19:34.174+0000] {create_or_update.py:46} WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['host.docker.internal'], lbp = None)
+[2024-01-05T17:19:34.203+0000] {create_or_update.py:47} WARNING - Downgrading core protocol version from 66 to 65 for 192.168.65.254:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2024-01-05T17:19:34.206+0000] {create_or_update.py:47} WARNING - Downgrading core protocol version from 65 to 5 for 192.168.65.254:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2024-01-05T17:19:34.234+0000] {asyncorereactor.py:448} WARNING - An authentication challenge was not sent, this is suspicious because the driver expects authentication (configured authenticator = PlainTextAuthenticator)
+[2024-01-05T17:19:34.259+0000] {policies.py:289} INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '192.168.65.254:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+[2024-01-05T17:19:34.431+0000] {asyncorereactor.py:448} WARNING - An authentication challenge was not sent, this is suspicious because the driver expects authentication (configured authenticator = PlainTextAuthenticator)
+[2024-01-05T17:19:34.525+0000] {logging_mixin.py:188} INFO - Keyspace created successfully
+[2024-01-05T17:19:34.619+0000] {logging_mixin.py:188} INFO - Table created successfully
+[2024-01-05T17:19:34.620+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-05T17:19:34.625+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=create_or_update, task_id=create_or_update, execution_date=20240101T000000, start_date=20240105T171934, end_date=20240105T171934
+[2024-01-05T17:19:34.678+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-05T17:19:34.688+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

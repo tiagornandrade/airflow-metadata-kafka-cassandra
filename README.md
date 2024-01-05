@@ -102,7 +102,7 @@ A estrutura do projeto pode ser organizada de uma maneira que facilite a compree
 Execute o script principal para iniciar a coleta de metadados e envio para o Cassandra via Kafka:
 
 ```bash
-python main.py
+python send_metadata_to_kafka_operator.py
 ```
 
 Este script deve ser agendado para execução periódica ou integrado ao fluxo de execução das suas DAGs no Airflow.

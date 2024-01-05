@@ -1,0 +1,77 @@
+[2024-01-05T14:27:18.639+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T14:27:18.643+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T14:27:18.643+0000] {taskinstance.py:2171} INFO - Starting attempt 5 of 5
+[2024-01-05T14:27:18.649+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): create_or_update> on 2024-01-01 00:00:00+00:00
+[2024-01-05T14:27:18.652+0000] {standard_task_runner.py:60} INFO - Started process 314 to run task
+[2024-01-05T14:27:18.654+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'create_or_update', 'create_or_update', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/create_or_update.py', '--cfg-path', '/tmp/tmpt7tjlq6x']
+[2024-01-05T14:27:18.655+0000] {standard_task_runner.py:88} INFO - Job 15: Subtask create_or_update
+[2024-01-05T14:27:18.678+0000] {task_command.py:423} INFO - Running <TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [running]> on host c25267c2e107
+[2024-01-05T14:27:18.709+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='create_or_update' AIRFLOW_CTX_TASK_ID='create_or_update' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2024-01-05T14:27:18.711+0000] {create_or_update.py:46} WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['localhost'], lbp = None)
+[2024-01-05T14:27:18.712+0000] {create_or_update.py:47} WARNING - [control connection] Error connecting to ::1:9042:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3541, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra/cluster.py", line 3563, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/cluster.py", line 1630, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra/connection.py", line 850, in cassandra.connection.Connection.factory
+  File "/home/airflow/.local/lib/python3.8/site-packages/cassandra/io/asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra/connection.py", line 917, in cassandra.connection.Connection._connect_socket
+OSError: [Errno 99] Tried connecting to [('::1', 9042, 0, 0)]. Last error: Cannot assign requested address
+[2024-01-05T14:27:18.714+0000] {create_or_update.py:47} WARNING - [control connection] Error connecting to 127.0.0.1:9042:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3541, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra/cluster.py", line 3563, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/cluster.py", line 1630, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra/connection.py", line 850, in cassandra.connection.Connection.factory
+  File "/home/airflow/.local/lib/python3.8/site-packages/cassandra/io/asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra/connection.py", line 917, in cassandra.connection.Connection._connect_socket
+ConnectionRefusedError: [Errno 111] Tried connecting to [('127.0.0.1', 9042)]. Last error: Connection refused
+[2024-01-05T14:27:18.714+0000] {create_or_update.py:47} ERROR - Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1700, in cassandra.cluster.Cluster.connect
+  File "cassandra/cluster.py", line 3507, in cassandra.cluster.ControlConnection.connect
+  File "cassandra/cluster.py", line 3552, in cassandra.cluster.ControlConnection._reconnect_internal
+cassandra.cluster.NoHostAvailable: ('Unable to connect to any servers', {'::1:9042': OSError(99, "Tried connecting to [('::1', 9042, 0, 0)]. Last error: Cannot assign requested address"), '127.0.0.1:9042': ConnectionRefusedError(111, "Tried connecting to [('127.0.0.1', 9042)]. Last error: Connection refused")})
+[2024-01-05T14:27:18.715+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/create_or_update.py", line 47, in create_or_update
+    session = cluster.connect()
+  File "cassandra/cluster.py", line 1677, in cassandra.cluster.Cluster.connect
+  File "cassandra/cluster.py", line 1713, in cassandra.cluster.Cluster.connect
+  File "cassandra/cluster.py", line 1700, in cassandra.cluster.Cluster.connect
+  File "cassandra/cluster.py", line 3507, in cassandra.cluster.ControlConnection.connect
+  File "cassandra/cluster.py", line 3552, in cassandra.cluster.ControlConnection._reconnect_internal
+cassandra.cluster.NoHostAvailable: ('Unable to connect to any servers', {'::1:9042': OSError(99, "Tried connecting to [('::1', 9042, 0, 0)]. Last error: Cannot assign requested address"), '127.0.0.1:9042': ConnectionRefusedError(111, "Tried connecting to [('127.0.0.1', 9042)]. Last error: Connection refused")})
+[2024-01-05T14:27:18.719+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=create_or_update, task_id=create_or_update, execution_date=20240101T000000, start_date=20240105T142718, end_date=20240105T142718
+[2024-01-05T14:27:18.724+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 15 for task create_or_update (('Unable to connect to any servers', {'::1:9042': OSError(99, "Tried connecting to [('::1', 9042, 0, 0)]. Last error: Cannot assign requested address"), '127.0.0.1:9042': ConnectionRefusedError(111, "Tried connecting to [('127.0.0.1', 9042)]. Last error: Connection refused")}); 314)
+[2024-01-05T14:27:18.748+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-05T14:27:18.756+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-01-05T18:39:18.554+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T18:39:18.559+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T18:39:18.559+0000] {taskinstance.py:2171} INFO - Starting attempt 5 of 5
+[2024-01-05T18:39:18.566+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): create_or_update> on 2024-01-01 00:00:00+00:00
+[2024-01-05T18:39:18.569+0000] {standard_task_runner.py:60} INFO - Started process 311 to run task
+[2024-01-05T18:39:18.572+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'create_or_update', 'create_or_update', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/create_or_update.py', '--cfg-path', '/tmp/tmpwlyup8zm']
+[2024-01-05T18:39:18.573+0000] {standard_task_runner.py:88} INFO - Job 48: Subtask create_or_update
+[2024-01-05T18:39:18.599+0000] {task_command.py:423} INFO - Running <TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [running]> on host dd33cbd63845
+[2024-01-05T18:39:18.635+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-eng' AIRFLOW_CTX_DAG_ID='create_or_update' AIRFLOW_CTX_TASK_ID='create_or_update' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2024-01-05T18:39:18.647+0000] {create_or_update.py:46} WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['host.docker.internal'], lbp = None)
+[2024-01-05T18:39:18.654+0000] {create_or_update.py:47} WARNING - Downgrading core protocol version from 66 to 65 for 192.168.65.254:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2024-01-05T18:39:18.656+0000] {create_or_update.py:47} WARNING - Downgrading core protocol version from 65 to 5 for 192.168.65.254:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2024-01-05T18:39:18.660+0000] {asyncorereactor.py:448} WARNING - An authentication challenge was not sent, this is suspicious because the driver expects authentication (configured authenticator = PlainTextAuthenticator)
+[2024-01-05T18:39:18.679+0000] {policies.py:289} INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '192.168.65.254:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+[2024-01-05T18:39:18.858+0000] {asyncorereactor.py:448} WARNING - An authentication challenge was not sent, this is suspicious because the driver expects authentication (configured authenticator = PlainTextAuthenticator)
+[2024-01-05T18:39:18.898+0000] {logging_mixin.py:188} INFO - Keyspace created successfully
+[2024-01-05T18:39:18.986+0000] {logging_mixin.py:188} INFO - Table created successfully
+[2024-01-05T18:39:18.987+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-05T18:39:18.992+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=create_or_update, task_id=create_or_update, execution_date=20240101T000000, start_date=20240105T183918, end_date=20240105T183918
+[2024-01-05T18:39:19.030+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-05T18:39:19.041+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
