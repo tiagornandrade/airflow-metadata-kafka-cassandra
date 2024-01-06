@@ -4910,3 +4910,1561 @@ File Path                                PID  Runtime      # DAGs    # Errors  L
 /opt/airflow/dags/create_topic.py        631  0.01s             1           0  0.07s           2024-01-05T18:55:41
 ================================================================================
 [2024-01-05T18:56:34.219+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-05T20:55:52.676+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-01-05T20:55:52.676+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-05T20:55:52.677+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-05T20:55:52.677+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T20:55:52.682+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T20:55:52.744+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dummy_dag.py            57  0.04s             0           0
+/opt/airflow/dags/create_or_update.py                           0           0
+/opt/airflow/dags/create_topic.py         58  0.03s             0           0
+================================================================================
+[2024-01-05T20:56:22.755+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.22s           2024-01-05T20:55:52
+/opt/airflow/dags/create_or_update.py                           1           0  0.67s           2024-01-05T20:55:53
+/opt/airflow/dags/create_topic.py                               1           0  0.22s           2024-01-05T20:55:52
+================================================================================
+[2024-01-05T20:56:53.327+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py            74  0.01s             1           0  0.10s           2024-01-05T20:56:23
+/opt/airflow/dags/create_or_update.py                           1           0  0.23s           2024-01-05T20:56:24
+/opt/airflow/dags/create_topic.py         75  0.00s             1           0  0.10s           2024-01-05T20:56:23
+================================================================================
+[2024-01-05T20:57:23.591+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py            83  0.01s             1           0  0.08s           2024-01-05T20:56:53
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-05T20:56:54
+/opt/airflow/dags/create_topic.py         84  0.00s             1           0  0.07s           2024-01-05T20:56:53
+================================================================================
+[2024-01-05T20:57:53.885+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py            92  0.01s             1           0  0.07s           2024-01-05T20:57:23
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-05T20:57:25
+/opt/airflow/dags/create_topic.py         93  0.00s             1           0  0.06s           2024-01-05T20:57:23
+================================================================================
+[2024-01-05T20:58:20.452+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-05T21:00:06.125+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-01-05T21:00:06.125+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-05T21:00:06.125+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-01-05T21:00:06.125+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T21:00:06.134+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T21:00:06.196+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dummy_dag.py            57  0.03s             0           0
+/opt/airflow/dags/create_or_update.py                           0           0
+/opt/airflow/dags/create_topic.py         58  0.03s             0           0
+================================================================================
+[2024-01-05T21:00:36.507+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py            66  0.01s             1           0  0.22s           2024-01-05T21:00:06
+/opt/airflow/dags/create_or_update.py                           1           0  0.60s           2024-01-05T21:00:06
+/opt/airflow/dags/create_topic.py         67  0.00s             1           0  0.21s           2024-01-05T21:00:06
+================================================================================
+[2024-01-05T21:01:06.829+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py            75  0.01s             1           0  0.13s           2024-01-05T21:00:36
+/opt/airflow/dags/create_or_update.py                           1           0  0.21s           2024-01-05T21:00:37
+/opt/airflow/dags/create_topic.py         76  0.00s             1           0  0.12s           2024-01-05T21:00:36
+================================================================================
+[2024-01-05T21:01:37.233+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py            84  0.01s             1           0  0.07s           2024-01-05T21:01:06
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-05T21:01:08
+/opt/airflow/dags/create_topic.py         85  0.00s             1           0  0.07s           2024-01-05T21:01:06
+================================================================================
+[2024-01-05T21:02:07.564+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py            93  0.02s             1           0  0.07s           2024-01-05T21:01:37
+/opt/airflow/dags/create_or_update.py                           1           0  0.32s           2024-01-05T21:01:38
+/opt/airflow/dags/create_topic.py         94  0.00s             1           0  0.07s           2024-01-05T21:01:37
+================================================================================
+[2024-01-05T21:02:37.962+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           102  0.01s             1           0  0.09s           2024-01-05T21:02:07
+/opt/airflow/dags/create_or_update.py                           1           0  0.33s           2024-01-05T21:02:08
+/opt/airflow/dags/create_topic.py        103  0.00s             1           0  0.08s           2024-01-05T21:02:07
+================================================================================
+[2024-01-05T21:03:08.380+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           111  0.01s             1           0  0.09s           2024-01-05T21:02:38
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-05T21:02:39
+/opt/airflow/dags/create_topic.py        112  0.00s             1           0  0.08s           2024-01-05T21:02:38
+================================================================================
+[2024-01-05T21:03:38.706+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           120  0.01s             1           0  0.07s           2024-01-05T21:03:08
+/opt/airflow/dags/create_or_update.py                           1           0  0.20s           2024-01-05T21:03:09
+/opt/airflow/dags/create_topic.py        121  0.00s             1           0  0.07s           2024-01-05T21:03:08
+================================================================================
+[2024-01-05T21:04:09.082+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           129  0.01s             1           0  0.13s           2024-01-05T21:03:38
+/opt/airflow/dags/create_or_update.py                           1           0  0.35s           2024-01-05T21:03:40
+/opt/airflow/dags/create_topic.py        130  0.00s             1           0  0.12s           2024-01-05T21:03:38
+================================================================================
+[2024-01-05T21:04:39.462+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           138  0.01s             1           0  0.07s           2024-01-05T21:04:09
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-05T21:04:11
+/opt/airflow/dags/create_topic.py        139  0.00s             1           0  0.07s           2024-01-05T21:04:09
+================================================================================
+[2024-01-05T21:05:06.738+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T21:05:06.749+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T21:05:09.792+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           147  0.01s             1           0  0.07s           2024-01-05T21:04:39
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-05T21:04:41
+/opt/airflow/dags/create_topic.py        148  0.00s             1           0  0.07s           2024-01-05T21:04:39
+================================================================================
+[2024-01-05T21:05:40.204+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           156  0.01s             1           0  0.07s           2024-01-05T21:05:09
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-05T21:05:12
+/opt/airflow/dags/create_topic.py        157  0.00s             1           0  0.07s           2024-01-05T21:05:09
+================================================================================
+[2024-01-05T21:06:10.599+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           165  0.01s             1           0  0.06s           2024-01-05T21:05:40
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-05T21:05:42
+/opt/airflow/dags/create_topic.py        166  0.00s             1           0  0.06s           2024-01-05T21:05:40
+================================================================================
+[2024-01-05T21:06:41.061+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           174  0.02s             1           0  0.09s           2024-01-05T21:06:10
+/opt/airflow/dags/create_or_update.py                           1           0  0.20s           2024-01-05T21:06:12
+/opt/airflow/dags/create_topic.py        175  0.00s             1           0  0.07s           2024-01-05T21:06:10
+================================================================================
+[2024-01-05T21:07:11.461+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           183  0.01s             1           0  0.08s           2024-01-05T21:06:41
+/opt/airflow/dags/create_or_update.py                           1           0  0.21s           2024-01-05T21:06:43
+/opt/airflow/dags/create_topic.py        184  0.00s             1           0  0.07s           2024-01-05T21:06:41
+================================================================================
+[2024-01-05T21:07:41.935+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           192  0.01s             1           0  0.07s           2024-01-05T21:07:11
+/opt/airflow/dags/create_or_update.py                           1           0  0.33s           2024-01-05T21:07:13
+/opt/airflow/dags/create_topic.py        193  0.00s             1           0  0.07s           2024-01-05T21:07:11
+================================================================================
+[2024-01-05T21:08:12.305+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           201  0.02s             1           0  0.08s           2024-01-05T21:07:42
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-05T21:07:44
+/opt/airflow/dags/create_topic.py        202  0.00s             1           0  0.08s           2024-01-05T21:07:42
+================================================================================
+[2024-01-05T21:08:42.700+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           210  0.01s             1           0  0.08s           2024-01-05T21:08:12
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-05T21:08:14
+/opt/airflow/dags/create_topic.py        211  0.00s             1           0  0.07s           2024-01-05T21:08:12
+================================================================================
+[2024-01-05T21:09:13.099+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           219  0.02s             1           0  0.06s           2024-01-05T21:08:42
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-05T21:08:45
+/opt/airflow/dags/create_topic.py        220  0.00s             1           0  0.06s           2024-01-05T21:08:42
+================================================================================
+[2024-01-05T21:09:43.514+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           228  0.02s             1           0  0.09s           2024-01-05T21:09:13
+/opt/airflow/dags/create_or_update.py                           1           0  0.22s           2024-01-05T21:09:15
+/opt/airflow/dags/create_topic.py        229  0.00s             1           0  0.08s           2024-01-05T21:09:13
+================================================================================
+[2024-01-05T21:10:06.845+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T21:10:06.859+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T21:10:13.952+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           237  0.02s             1           0  0.08s           2024-01-05T21:09:43
+/opt/airflow/dags/create_or_update.py                           1           0  0.19s           2024-01-05T21:09:45
+/opt/airflow/dags/create_topic.py        238  0.00s             1           0  0.07s           2024-01-05T21:09:43
+================================================================================
+[2024-01-05T21:10:44.385+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           252  0.01s             1           0  0.09s           2024-01-05T21:10:14
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-05T21:10:16
+/opt/airflow/dags/create_topic.py        253  0.00s             1           0  0.08s           2024-01-05T21:10:14
+================================================================================
+[2024-01-05T21:11:14.825+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           261  0.01s             1           0  0.07s           2024-01-05T21:10:44
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-05T21:10:46
+/opt/airflow/dags/create_topic.py        262  0.00s             1           0  0.07s           2024-01-05T21:10:44
+================================================================================
+[2024-01-05T21:11:45.169+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           270  0.01s             1           0  0.09s           2024-01-05T21:11:14
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-05T21:11:17
+/opt/airflow/dags/create_topic.py        271  0.00s             1           0  0.09s           2024-01-05T21:11:14
+================================================================================
+[2024-01-05T21:12:15.569+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           279  0.02s             1           0  0.06s           2024-01-05T21:11:45
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-05T21:11:48
+/opt/airflow/dags/create_topic.py        280  0.00s             1           0  0.06s           2024-01-05T21:11:45
+================================================================================
+[2024-01-05T21:12:46.056+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           288  0.01s             1           0  0.09s           2024-01-05T21:12:15
+/opt/airflow/dags/create_or_update.py                           1           0  0.21s           2024-01-05T21:12:18
+/opt/airflow/dags/create_topic.py        289  0.00s             1           0  0.08s           2024-01-05T21:12:15
+================================================================================
+[2024-01-05T21:13:16.404+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           297  0.01s             1           0  0.08s           2024-01-05T21:12:46
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-05T21:12:49
+/opt/airflow/dags/create_topic.py        298  0.00s             1           0  0.07s           2024-01-05T21:12:46
+================================================================================
+[2024-01-05T21:13:46.749+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           306  0.01s             1           0  0.07s           2024-01-05T21:13:16
+/opt/airflow/dags/create_or_update.py                           1           0  0.40s           2024-01-05T21:13:19
+/opt/airflow/dags/create_topic.py        307  0.00s             1           0  0.07s           2024-01-05T21:13:16
+================================================================================
+[2024-01-05T21:14:17.231+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           315  0.02s             1           0  0.09s           2024-01-05T21:13:46
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-05T21:13:51
+/opt/airflow/dags/create_topic.py        316  0.00s             1           0  0.08s           2024-01-05T21:13:46
+================================================================================
+[2024-01-05T21:14:47.644+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           324  0.02s             1           0  0.08s           2024-01-05T21:14:17
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-05T21:14:21
+/opt/airflow/dags/create_topic.py        325  0.00s             1           0  0.07s           2024-01-05T21:14:17
+================================================================================
+[2024-01-05T21:15:06.894+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T21:15:06.910+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T21:15:18.042+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           333  0.02s             1           0  0.08s           2024-01-05T21:14:47
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-05T21:14:51
+/opt/airflow/dags/create_topic.py        334  0.00s             1           0  0.07s           2024-01-05T21:14:47
+================================================================================
+[2024-01-05T21:15:48.447+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           342  0.02s             1           0  0.08s           2024-01-05T21:15:18
+/opt/airflow/dags/create_or_update.py                           1           0  0.21s           2024-01-05T21:15:22
+/opt/airflow/dags/create_topic.py        343  0.00s             1           0  0.07s           2024-01-05T21:15:18
+================================================================================
+[2024-01-05T21:16:18.814+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           351  0.01s             1           0  0.08s           2024-01-05T21:15:48
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-05T21:15:52
+/opt/airflow/dags/create_topic.py        352  0.00s             1           0  0.07s           2024-01-05T21:15:48
+================================================================================
+[2024-01-05T21:16:49.200+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           360  0.02s             1           0  0.08s           2024-01-05T21:16:18
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-05T21:16:23
+/opt/airflow/dags/create_topic.py        361  0.00s             1           0  0.08s           2024-01-05T21:16:18
+================================================================================
+[2024-01-05T21:17:19.637+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           369  0.01s             1           0  0.08s           2024-01-05T21:16:49
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-05T21:16:53
+/opt/airflow/dags/create_topic.py        370  0.00s             1           0  0.07s           2024-01-05T21:16:49
+================================================================================
+[2024-01-05T21:17:50.047+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           378  0.02s             1           0  0.08s           2024-01-05T21:17:19
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-05T21:17:24
+/opt/airflow/dags/create_topic.py        379  0.00s             1           0  0.07s           2024-01-05T21:17:19
+================================================================================
+[2024-01-05T21:18:20.478+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           387  0.02s             1           0  0.09s           2024-01-05T21:17:50
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-05T21:17:54
+/opt/airflow/dags/create_topic.py        388  0.00s             1           0  0.09s           2024-01-05T21:17:50
+================================================================================
+[2024-01-05T21:18:50.907+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           396  0.01s             1           0  0.08s           2024-01-05T21:18:20
+/opt/airflow/dags/create_or_update.py                           1           0  0.22s           2024-01-05T21:18:24
+/opt/airflow/dags/create_topic.py        397  0.00s             1           0  0.07s           2024-01-05T21:18:20
+================================================================================
+[2024-01-05T21:19:21.319+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           405  0.02s             1           0  0.07s           2024-01-05T21:18:50
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-05T21:18:55
+/opt/airflow/dags/create_topic.py        406  0.00s             1           0  0.07s           2024-01-05T21:18:50
+================================================================================
+[2024-01-05T21:19:51.718+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           414  0.01s             1           0  0.11s           2024-01-05T21:19:21
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-05T21:19:25
+/opt/airflow/dags/create_topic.py        415  0.00s             1           0  0.10s           2024-01-05T21:19:21
+================================================================================
+[2024-01-05T21:20:06.987+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T21:20:06.994+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T21:20:22.197+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           423  0.02s             1           0  0.07s           2024-01-05T21:19:51
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-05T21:19:56
+/opt/airflow/dags/create_topic.py        424  0.00s             1           0  0.07s           2024-01-05T21:19:51
+================================================================================
+[2024-01-05T21:20:52.740+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           432  0.02s             1           0  0.09s           2024-01-05T21:20:22
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-05T21:20:26
+/opt/airflow/dags/create_topic.py        433  0.01s             1           0  0.08s           2024-01-05T21:20:22
+================================================================================
+[2024-01-05T21:21:23.120+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           441  0.02s             1           0  0.09s           2024-01-05T21:20:52
+/opt/airflow/dags/create_or_update.py                           1           0  0.20s           2024-01-05T21:20:57
+/opt/airflow/dags/create_topic.py        442  0.00s             1           0  0.08s           2024-01-05T21:20:52
+================================================================================
+[2024-01-05T21:21:53.537+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           450  0.01s             1           0  0.08s           2024-01-05T21:21:23
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-05T21:21:27
+/opt/airflow/dags/create_topic.py        451  0.00s             1           0  0.07s           2024-01-05T21:21:23
+================================================================================
+[2024-01-05T21:22:23.933+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           459  0.02s             1           0  0.07s           2024-01-05T21:21:53
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-05T21:21:57
+/opt/airflow/dags/create_topic.py        460  0.00s             1           0  0.07s           2024-01-05T21:21:53
+================================================================================
+[2024-01-05T21:22:54.279+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           468  0.01s             1           0  0.09s           2024-01-05T21:22:24
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-05T21:22:28
+/opt/airflow/dags/create_topic.py        469  0.00s             1           0  0.08s           2024-01-05T21:22:24
+================================================================================
+[2024-01-05T21:23:24.683+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           477  0.02s             1           0  0.07s           2024-01-05T21:22:54
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-05T21:22:58
+/opt/airflow/dags/create_topic.py        478  0.01s             1           0  0.07s           2024-01-05T21:22:54
+================================================================================
+[2024-01-05T21:23:55.081+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           486  0.01s             1           0  0.10s           2024-01-05T21:23:24
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-05T21:23:29
+/opt/airflow/dags/create_topic.py        487  0.00s             1           0  0.09s           2024-01-05T21:23:24
+================================================================================
+[2024-01-05T21:24:25.510+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           495  0.02s             1           0  0.08s           2024-01-05T21:23:55
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-05T21:23:59
+/opt/airflow/dags/create_topic.py        496  0.01s             1           0  0.07s           2024-01-05T21:23:55
+================================================================================
+[2024-01-05T21:24:55.913+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           504  0.02s             1           0  0.08s           2024-01-05T21:24:25
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-05T21:24:29
+/opt/airflow/dags/create_topic.py        505  0.01s             1           0  0.08s           2024-01-05T21:24:25
+================================================================================
+[2024-01-05T21:25:07.082+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T21:25:07.092+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T21:25:26.325+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           513  0.02s             1           0  0.09s           2024-01-05T21:24:55
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-05T21:25:00
+/opt/airflow/dags/create_topic.py        514  0.00s             1           0  0.08s           2024-01-05T21:24:55
+================================================================================
+[2024-01-05T21:25:56.740+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           522  0.02s             1           0  0.08s           2024-01-05T21:25:26
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-05T21:25:30
+/opt/airflow/dags/create_topic.py        523  0.01s             1           0  0.07s           2024-01-05T21:25:26
+================================================================================
+[2024-01-05T21:26:27.157+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           531  0.01s             1           0  0.09s           2024-01-05T21:25:56
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-05T21:26:01
+/opt/airflow/dags/create_topic.py        532  0.00s             1           0  0.09s           2024-01-05T21:25:56
+================================================================================
+[2024-01-05T21:26:57.562+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           540  0.02s             1           0  0.08s           2024-01-05T21:26:27
+/opt/airflow/dags/create_or_update.py                           1           0  0.20s           2024-01-05T21:26:31
+/opt/airflow/dags/create_topic.py        541  0.00s             1           0  0.08s           2024-01-05T21:26:27
+================================================================================
+[2024-01-05T21:27:28.046+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           549  0.01s             1           0  0.08s           2024-01-05T21:26:57
+/opt/airflow/dags/create_or_update.py                           1           0  0.32s           2024-01-05T21:27:01
+/opt/airflow/dags/create_topic.py        550  0.00s             1           0  0.07s           2024-01-05T21:26:57
+================================================================================
+[2024-01-05T21:27:58.462+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           558  0.01s             1           0  0.08s           2024-01-05T21:27:28
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-05T21:27:32
+/opt/airflow/dags/create_topic.py        559  0.00s             1           0  0.08s           2024-01-05T21:27:28
+================================================================================
+[2024-01-05T21:28:28.923+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           567  0.01s             1           0  0.12s           2024-01-05T21:27:58
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-05T21:28:02
+/opt/airflow/dags/create_topic.py        568  0.00s             1           0  0.12s           2024-01-05T21:27:58
+================================================================================
+[2024-01-05T21:28:59.307+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           576  0.01s             1           0  0.07s           2024-01-05T21:28:28
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-05T21:28:33
+/opt/airflow/dags/create_topic.py        577  0.00s             1           0  0.06s           2024-01-05T21:28:28
+================================================================================
+[2024-01-05T21:29:29.666+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           585  0.01s             1           0  0.06s           2024-01-05T21:28:59
+/opt/airflow/dags/create_or_update.py                           1           0  0.32s           2024-01-05T21:29:03
+/opt/airflow/dags/create_topic.py        586  0.00s             1           0  0.06s           2024-01-05T21:28:59
+================================================================================
+[2024-01-05T21:30:00.041+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py           594  0.02s             1           0  0.06s           2024-01-05T21:29:29
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-05T21:29:34
+/opt/airflow/dags/create_topic.py        595  0.00s             1           0  0.06s           2024-01-05T21:29:29
+================================================================================
+[2024-01-05T21:30:07.189+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T21:30:07.207+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T21:49:23.962+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T21:49:23.967+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T21:49:32.816+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.06s           2024-01-05T21:49:24
+/opt/airflow/dags/create_or_update.py                           1           0  0.67s           2024-01-05T21:49:24
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-05T21:49:24
+================================================================================
+[2024-01-05T21:50:03.533+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-05T21:49:54
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-05T21:49:55
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-05T21:49:54
+================================================================================
+[2024-01-05T22:27:51.332+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T22:27:51.348+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T22:28:01.524+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-05T22:27:51
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-05T22:27:51
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-05T22:27:51
+================================================================================
+[2024-01-05T22:28:32.324+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.43s           2024-01-05T22:28:22
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-05T22:28:22
+/opt/airflow/dags/create_topic.py                               1           0  0.42s           2024-01-05T22:28:22
+================================================================================
+[2024-01-05T23:01:33.273+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T23:01:33.280+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T23:01:44.447+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-05T23:01:33
+/opt/airflow/dags/create_or_update.py                           1           0  0.35s           2024-01-05T23:01:33
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-05T23:01:33
+================================================================================
+[2024-01-05T23:13:46.811+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T23:13:46.833+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T23:13:58.088+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.10s           2024-01-05T23:13:46
+/opt/airflow/dags/create_or_update.py                           1           0  0.38s           2024-01-05T23:13:47
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-05T23:13:46
+================================================================================
+[2024-01-05T23:14:28.584+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-05T23:14:17
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-05T23:14:17
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-05T23:14:17
+================================================================================
+[2024-01-05T23:18:45.466+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-05T23:18:33
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-05T23:18:33
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-05T23:18:33
+================================================================================
+[2024-01-05T23:18:47.488+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T23:18:47.506+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T23:19:15.945+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.06s           2024-01-05T23:19:03
+/opt/airflow/dags/create_or_update.py                           1           0  0.26s           2024-01-05T23:19:04
+/opt/airflow/dags/create_topic.py                               1           0  0.06s           2024-01-05T23:19:03
+================================================================================
+[2024-01-05T23:33:00.795+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-05T23:33:00.805+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-05T23:33:14.043+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-05T23:33:00
+/opt/airflow/dags/create_or_update.py                           1           0  0.33s           2024-01-05T23:33:01
+/opt/airflow/dags/create_topic.py                               1           0  0.06s           2024-01-05T23:33:00
+================================================================================
+[2024-01-06T00:05:28.387+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T00:05:28.393+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T00:05:41.988+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T00:05:28
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-06T00:05:28
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T00:05:28
+================================================================================
+[2024-01-06T00:16:55.631+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T00:16:55.642+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T00:17:08.901+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T00:16:55
+/opt/airflow/dags/create_or_update.py                           1           0  0.46s           2024-01-06T00:16:56
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T00:16:55
+================================================================================
+[2024-01-06T00:33:11.366+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T00:33:11.373+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T00:33:24.867+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T00:33:11
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-06T00:33:11
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T00:33:11
+================================================================================
+[2024-01-06T00:44:47.863+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T00:44:47.870+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T00:45:01.147+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T00:44:47
+/opt/airflow/dags/create_or_update.py                           1           0  0.33s           2024-01-06T00:44:48
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T00:44:47
+================================================================================
+[2024-01-06T00:45:31.532+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.06s           2024-01-06T00:45:18
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-06T00:45:18
+/opt/airflow/dags/create_topic.py                               1           0  0.06s           2024-01-06T00:45:18
+================================================================================
+[2024-01-06T00:46:02.006+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T00:45:48
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-06T00:45:49
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:45:48
+================================================================================
+[2024-01-06T00:46:32.409+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T00:46:19
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:46:19
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:46:19
+================================================================================
+[2024-01-06T00:47:02.835+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.10s           2024-01-06T00:46:49
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:46:49
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:46:49
+================================================================================
+[2024-01-06T00:47:33.227+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T00:47:20
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-06T00:47:20
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:47:20
+================================================================================
+[2024-01-06T00:48:03.550+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T00:47:50
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:47:50
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T00:47:50
+================================================================================
+[2024-01-06T00:48:33.909+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.10s           2024-01-06T00:48:20
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T00:48:21
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T00:48:20
+================================================================================
+[2024-01-06T00:49:04.292+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T00:48:51
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:48:51
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:48:51
+================================================================================
+[2024-01-06T00:49:34.677+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T00:49:21
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:49:21
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T00:49:21
+================================================================================
+[2024-01-06T00:49:48.024+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T00:49:48.049+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T00:50:05.183+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.10s           2024-01-06T00:49:52
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:49:52
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T00:49:52
+================================================================================
+[2024-01-06T00:50:35.585+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.10s           2024-01-06T00:50:22
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:50:22
+/opt/airflow/dags/create_topic.py                               1           0  0.10s           2024-01-06T00:50:22
+================================================================================
+[2024-01-06T00:51:06.081+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T00:50:52
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:50:53
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T00:50:52
+================================================================================
+[2024-01-06T00:51:36.510+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T00:51:23
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-06T00:51:23
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T00:51:23
+================================================================================
+[2024-01-06T00:52:06.962+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T00:51:53
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-06T00:51:54
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T00:51:53
+================================================================================
+[2024-01-06T00:52:37.273+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T00:52:24
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T00:52:24
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T00:52:24
+================================================================================
+[2024-01-06T00:53:07.690+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T00:52:54
+/opt/airflow/dags/create_or_update.py                           1           0  0.26s           2024-01-06T00:52:54
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:52:54
+================================================================================
+[2024-01-06T00:53:38.117+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T00:53:24
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:53:25
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:53:24
+================================================================================
+[2024-01-06T00:54:08.522+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T00:53:55
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:53:55
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T00:53:55
+================================================================================
+[2024-01-06T00:54:38.965+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T00:54:25
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:54:26
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:54:25
+================================================================================
+[2024-01-06T00:54:48.049+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T00:54:48.064+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T00:55:09.389+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T00:54:56
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T00:54:56
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:54:56
+================================================================================
+[2024-01-06T00:55:39.844+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.10s           2024-01-06T00:55:26
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T00:55:26
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:55:26
+================================================================================
+[2024-01-06T00:56:10.255+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T00:55:57
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:55:57
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:55:57
+================================================================================
+[2024-01-06T00:56:40.634+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T00:56:27
+/opt/airflow/dags/create_or_update.py                           1           0  0.33s           2024-01-06T00:56:27
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:56:27
+================================================================================
+[2024-01-06T00:57:11.038+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T00:56:57
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:56:58
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T00:56:57
+================================================================================
+[2024-01-06T00:57:41.393+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T00:57:28
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:57:28
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:57:28
+================================================================================
+[2024-01-06T00:58:11.830+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.10s           2024-01-06T00:57:58
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-06T00:57:58
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T00:57:58
+================================================================================
+[2024-01-06T00:58:42.276+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T00:58:29
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T00:58:29
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T00:58:29
+================================================================================
+[2024-01-06T00:59:12.677+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.13s           2024-01-06T00:58:59
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T00:58:59
+/opt/airflow/dags/create_topic.py                               1           0  0.11s           2024-01-06T00:58:59
+================================================================================
+[2024-01-06T00:59:43.110+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T00:59:29
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T00:59:30
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T00:59:29
+================================================================================
+[2024-01-06T00:59:48.142+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T00:59:48.166+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T01:00:13.446+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T01:00:00
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:00:00
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T01:00:00
+================================================================================
+[2024-01-06T01:00:43.799+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.10s           2024-01-06T01:00:30
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T01:00:30
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T01:00:30
+================================================================================
+[2024-01-06T01:01:14.229+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T01:01:01
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-06T01:01:01
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:01:01
+================================================================================
+[2024-01-06T01:01:44.684+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T01:01:31
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-06T01:01:31
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T01:01:31
+================================================================================
+[2024-01-06T01:02:15.125+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T01:02:01
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:02:02
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:02:01
+================================================================================
+[2024-01-06T01:02:45.521+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.06s           2024-01-06T01:02:32
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T01:02:32
+/opt/airflow/dags/create_topic.py                               1           0  0.06s           2024-01-06T01:02:32
+================================================================================
+[2024-01-06T01:03:15.993+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T01:03:02
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T01:03:03
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:03:02
+================================================================================
+[2024-01-06T01:03:46.325+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:03:33
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:03:33
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T01:03:33
+================================================================================
+[2024-01-06T01:04:16.685+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T01:04:03
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T01:04:03
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T01:04:03
+================================================================================
+[2024-01-06T01:04:47.053+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:04:33
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:04:34
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:04:33
+================================================================================
+[2024-01-06T01:04:48.306+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T01:04:48.320+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T01:05:17.510+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T01:05:04
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:05:04
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:05:04
+================================================================================
+[2024-01-06T01:05:47.960+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T01:05:34
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:05:35
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:05:34
+================================================================================
+[2024-01-06T01:06:18.365+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T01:06:05
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-06T01:06:05
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:06:05
+================================================================================
+[2024-01-06T01:06:48.774+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.13s           2024-01-06T01:06:35
+/opt/airflow/dags/create_or_update.py                           1           0  0.34s           2024-01-06T01:06:35
+/opt/airflow/dags/create_topic.py                               1           0  0.13s           2024-01-06T01:06:35
+================================================================================
+[2024-01-06T01:07:19.158+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:07:06
+/opt/airflow/dags/create_or_update.py                           1           0  0.31s           2024-01-06T01:07:06
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:07:06
+================================================================================
+[2024-01-06T01:07:49.562+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T01:07:36
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:07:36
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T01:07:36
+================================================================================
+[2024-01-06T01:08:20.029+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:08:06
+/opt/airflow/dags/create_or_update.py                           1           0  0.26s           2024-01-06T01:08:07
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:08:06
+================================================================================
+[2024-01-06T01:08:50.445+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.10s           2024-01-06T01:08:37
+/opt/airflow/dags/create_or_update.py                           1           0  0.26s           2024-01-06T01:08:37
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T01:08:37
+================================================================================
+[2024-01-06T01:09:20.838+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.10s           2024-01-06T01:09:07
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:09:08
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T01:09:07
+================================================================================
+[2024-01-06T01:09:48.426+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T01:09:48.441+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T01:09:51.217+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:09:38
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:09:38
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T01:09:38
+================================================================================
+[2024-01-06T01:10:21.619+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:10:08
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T01:10:08
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:10:08
+================================================================================
+[2024-01-06T01:10:51.989+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T01:10:38
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:10:39
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:10:38
+================================================================================
+[2024-01-06T01:11:22.442+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T01:11:09
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-06T01:11:09
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T01:11:09
+================================================================================
+[2024-01-06T01:11:52.861+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:11:39
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:11:40
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:11:39
+================================================================================
+[2024-01-06T01:12:23.259+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T01:12:10
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T01:12:10
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T01:12:10
+================================================================================
+[2024-01-06T01:12:53.699+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:12:40
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:12:40
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:12:40
+================================================================================
+[2024-01-06T01:13:24.144+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.10s           2024-01-06T01:13:11
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-06T01:13:11
+/opt/airflow/dags/create_topic.py                               1           0  0.10s           2024-01-06T01:13:11
+================================================================================
+[2024-01-06T01:13:54.517+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T01:13:41
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T01:13:41
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T01:13:41
+================================================================================
+[2024-01-06T01:14:24.846+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T01:14:11
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T01:14:12
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T01:14:11
+================================================================================
+[2024-01-06T01:14:49.140+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T01:14:49.152+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T01:14:55.249+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:14:42
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:14:42
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:14:42
+================================================================================
+[2024-01-06T01:15:25.690+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:15:12
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T01:15:12
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T01:15:12
+================================================================================
+[2024-01-06T01:15:56.124+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T01:15:42
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-06T01:15:43
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:15:42
+================================================================================
+[2024-01-06T01:16:26.577+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:16:13
+/opt/airflow/dags/create_or_update.py                           1           0  0.26s           2024-01-06T01:16:13
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:16:13
+================================================================================
+[2024-01-06T01:16:57.009+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:16:43
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-06T01:16:44
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:16:43
+================================================================================
+[2024-01-06T01:17:27.385+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T01:17:14
+/opt/airflow/dags/create_or_update.py                           1           0  0.27s           2024-01-06T01:17:14
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T01:17:14
+================================================================================
+[2024-01-06T01:17:57.729+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T01:17:44
+/opt/airflow/dags/create_or_update.py                           1           0  0.26s           2024-01-06T01:17:44
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T01:17:44
+================================================================================
+[2024-01-06T01:18:28.107+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:18:14
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:18:15
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T01:18:14
+================================================================================
+[2024-01-06T01:18:58.561+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.08s           2024-01-06T01:18:45
+/opt/airflow/dags/create_or_update.py                           1           0  0.30s           2024-01-06T01:18:45
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T01:18:45
+================================================================================
+[2024-01-06T01:19:28.970+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T01:19:15
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:19:16
+/opt/airflow/dags/create_topic.py                               1           0  0.07s           2024-01-06T01:19:15
+================================================================================
+[2024-01-06T01:19:49.274+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-06T01:19:49.297+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-01-06T01:19:59.417+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.09s           2024-01-06T01:19:46
+/opt/airflow/dags/create_or_update.py                           1           0  0.28s           2024-01-06T01:19:46
+/opt/airflow/dags/create_topic.py                               1           0  0.09s           2024-01-06T01:19:46
+================================================================================
+[2024-01-06T01:20:29.821+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.14s           2024-01-06T01:20:00
+/opt/airflow/dags/create_or_update.py                           1           0  0.34s           2024-01-06T01:20:16
+/opt/airflow/dags/create_topic.py                               1           0  0.10s           2024-01-06T01:20:16
+================================================================================
+[2024-01-06T01:21:00.241+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dummy_dag.py                                  1           0  0.07s           2024-01-06T01:20:30
+/opt/airflow/dags/create_or_update.py                           1           0  0.29s           2024-01-06T01:20:47
+/opt/airflow/dags/create_topic.py                               1           0  0.08s           2024-01-06T01:20:47
+================================================================================
+[2024-01-06T01:21:13.409+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15

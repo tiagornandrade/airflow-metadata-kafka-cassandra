@@ -50,48 +50,44 @@ def send_metadata():
 
 @app.route('/consume_and_insert', methods=['GET'])
 def consume_and_insert():
-    kafka_bootstrap_servers = 'localhost:9092'
-    topic = 'airflow_metadata_topic'
-    cassandra_contact_point = 'localhost'
+    consumer = KafkaConsumer(
+        'airflow_metadata_topic',
+        group_id='flask-consumer-group',
+        bootstrap_servers=['localhost:9092']
+    )
 
-    consumer_config = {
-        'bootstrap.servers': kafka_bootstrap_servers,
-        'group.id': 'flask-consumer-group',
-        'auto.offset.reset': 'earliest',
-    }
+    cluster = Cluster(['localhost'])
+    session = cluster.connect('metadata')
 
-    consumer = Consumer(consumer_config)
-    consumer.subscribe([topic])
+    insert_statement = session.prepare(
+        "INSERT INTO airflow_execution (id, dag_id, execution_date) VALUES (?, ?, ?)"
+    )
 
-    auth_provider = PlainTextAuthProvider(username='cassandra', password='cassandra')
-    cassandra_cluster = Cluster([cassandra_contact_point], auth_provider=auth_provider)
-    session = cassandra_cluster.connect()
+    for message in consumer:
+        decoded_message = message.value.decode('utf-8')
 
-    try:
-        while True:
-            msg = consumer.poll(1.0)
+        try:
+            message_data = json.loads(decoded_message)
 
-            if msg is None:
-                continue
-            if msg.error():
-                logging.error("Erro ao receber mensagem do Kafka: %s", msg.error())
-            else:
-                try:
-                    metadata = json.loads(msg.value().decode('utf-8'))
-                    logging.info('Mensagem recebida: %s', metadata)
+            id = uuid.uuid4()
+            dag_id = message_data.get('dag_id', '')
 
-                    insert_query = "INSERT INTO metadata.airflow_execution (id, dag_id, execution_date) VALUES (?, ?, ?)"
-                    session.execute(insert_query, (metadata['id'], metadata['dag_id'], metadata['execution_date']))
+            execution_date_str = message_data.get('execution_date', '')
+            execution_date = datetime.strptime(execution_date_str,
+                                               '%Y-%m-%dT%H:%M:%S.%f') if execution_date_str else None
 
-                except Exception as ex:
-                    logging.error('Erro ao processar a mensagem: %s', str(ex))
+            session.execute(insert_statement, (id, dag_id, execution_date))
+            print(f'Dados inseridos no Cassandra: id={id}, dag_id={dag_id}, execution_date={execution_date}')
 
-    except KeyboardInterrupt:
-        pass
-    finally:
-        consumer.close()
+        except json.JSONDecodeError as e:
+            print(f"Aviso: Ignorando mensagem com formato JSON inválido: {decoded_message}")
+            continue
+        except ValueError as e:
+            print(
+                f"Aviso: Ignorando mensagem com 'id' inválido, 'execution_date' inválido ou formato de data inválido: {decoded_message}")
+            continue
 
-    return jsonify({'status': 'Consumo e inserção no Cassandra bem-sucedidos!'})
+    cluster.shutdown()
 
 
 if __name__ == '__main__':

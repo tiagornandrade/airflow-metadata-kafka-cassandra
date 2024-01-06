@@ -19,3 +19,24 @@
 [2024-01-05T14:27:43.614+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=create_or_update, task_id=create_or_update, execution_date=20240101T000000, start_date=20240105T142743, end_date=20240105T142743
 [2024-01-05T14:27:43.649+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
 [2024-01-05T14:27:43.659+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-01-05T21:01:51.763+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T21:01:51.767+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-01-05T21:01:51.768+0000] {taskinstance.py:2171} INFO - Starting attempt 6 of 6
+[2024-01-05T21:01:51.774+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): create_or_update> on 2024-01-01 00:00:00+00:00
+[2024-01-05T21:01:51.777+0000] {standard_task_runner.py:60} INFO - Started process 107 to run task
+[2024-01-05T21:01:51.780+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'create_or_update', 'create_or_update', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/create_or_update.py', '--cfg-path', '/tmp/tmplxbzmv7l']
+[2024-01-05T21:01:51.780+0000] {standard_task_runner.py:88} INFO - Job 53: Subtask create_or_update
+[2024-01-05T21:01:51.805+0000] {task_command.py:423} INFO - Running <TaskInstance: create_or_update.create_or_update scheduled__2024-01-01T00:00:00+00:00 [running]> on host bb6e3efe9410
+[2024-01-05T21:01:51.841+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-eng' AIRFLOW_CTX_DAG_ID='create_or_update' AIRFLOW_CTX_TASK_ID='create_or_update' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='6' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2024-01-05T21:01:51.847+0000] {create_or_update.py:46} WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['host.docker.internal'], lbp = None)
+[2024-01-05T21:01:51.852+0000] {create_or_update.py:47} WARNING - Downgrading core protocol version from 66 to 65 for 192.168.65.254:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2024-01-05T21:01:51.854+0000] {create_or_update.py:47} WARNING - Downgrading core protocol version from 65 to 5 for 192.168.65.254:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2024-01-05T21:01:51.856+0000] {asyncorereactor.py:448} WARNING - An authentication challenge was not sent, this is suspicious because the driver expects authentication (configured authenticator = PlainTextAuthenticator)
+[2024-01-05T21:01:51.862+0000] {policies.py:289} INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '192.168.65.254:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+[2024-01-05T21:01:52.018+0000] {asyncorereactor.py:448} WARNING - An authentication challenge was not sent, this is suspicious because the driver expects authentication (configured authenticator = PlainTextAuthenticator)
+[2024-01-05T21:01:52.058+0000] {logging_mixin.py:188} INFO - Keyspace created successfully
+[2024-01-05T21:01:52.185+0000] {logging_mixin.py:188} INFO - Table created successfully
+[2024-01-05T21:01:52.185+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-05T21:01:52.191+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=create_or_update, task_id=create_or_update, execution_date=20240101T000000, start_date=20240105T210151, end_date=20240105T210152
+[2024-01-05T21:01:52.236+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-05T21:01:52.247+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -26,6 +26,18 @@ def call_flask_endpoint():
         logging.error('Erro ao chamar o endpoint Flask: %s', str(e))
 
 
+def get_kafka_endpoint():
+    kafka_endpoint_url = 'http://localhost:5000/consume_and_insert'
+
+    try:
+        response = requests.get(kafka_endpoint_url)
+        response.raise_for_status()
+        logging.info('Response: %s', response.text)
+        logging.info('HTTP Status Code: %s', response.status_code)
+    except requests.exceptions.RequestException as e:
+        logging.error('Erro ao chamar o endpoint Kafka: %s', str(e))
+
+
 with DAG(
     "dummy_dag",
     default_args=default_args,
@@ -42,9 +54,14 @@ with DAG(
 
     end = DummyOperator(task_id="end")
 
-    send_metadata_task = PythonOperator(
-        task_id='send_metadata_to_kafka',
+    cassandra_task = PythonOperator(
+        task_id='cassandra_task',
+        python_callable=get_kafka_endpoint,
+    )
+
+    kafka_task = PythonOperator(
+        task_id='kafka_task',
         python_callable=call_flask_endpoint,
     )
 
-    start >> wait_for_flask >> send_metadata_task >> end
+    start >> wait_for_flask >> cassandra_task >> kafka_task >> end

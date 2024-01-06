@@ -338,6 +338,18 @@ services:
     networks:
       - confluent
 
+  flask-consumer:
+    image: tiangolo/uwsgi-nginx-flask:python3.8
+    depends_on:
+      - broker
+      - cassandra_db
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: broker:9092
+      KAFKA_TOPIC: airflow_metadata_topic
+      CASSANDRA_CONTACT_POINTS: cassandra_db:9042
+      CASSANDRA_KEYSPACE: nome_do_seu_keyspace
+    restart: always
+
 volumes:
   postgres-db-volume:
 
